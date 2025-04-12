@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "virus alert",
+    "version": "1.0.0",
+    "description": "timepass",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+  "48": "virus.png",
+  "128": "virus.png"
+}
+  }
+  
