@@ -10,11 +10,7 @@ The virus-Alert project is a browser extension designed to alert users about pot
 * 🚫 Blocking of malicious content
 
 ## Technology Stack
-* Frontend: JavaScript
-* Backend: Not Applicable
-* Database: Not Applicable
-* ML: Not Applicable
-* Libs: Not Applicable
+JavaScript
 
 ## Getting Started
 To install and setup the project, follow these steps:
